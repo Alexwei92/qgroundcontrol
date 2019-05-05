@@ -42,6 +42,8 @@ APMCopterMode::APMCopterMode(uint32_t mode, bool settable) :
     enumToString.insert(AVOID_ADSB,     "Avoid ADSB");
     enumToString.insert(GUIDED_NOGPS,   "Guided No GPS");
     enumToString.insert(SAFE_RTL,       "Smart RTL");
+    enumToString.insert(SYS_ID,         "System ID");
+   
 
     setEnumToStringMapping(enumToString);
 }
@@ -68,6 +70,8 @@ ArduCopterFirmwarePlugin::ArduCopterFirmwarePlugin(void)
     supportedFlightModes << APMCopterMode(APMCopterMode::AVOID_ADSB,true);
     supportedFlightModes << APMCopterMode(APMCopterMode::GUIDED_NOGPS,true);
     supportedFlightModes << APMCopterMode(APMCopterMode::SAFE_RTL,true);
+    supportedFlightModes << APMCopterMode(APMCopterMode::SYS_ID,true);
+
 
     setSupportedModes(supportedFlightModes);
 

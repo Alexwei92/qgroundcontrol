@@ -42,8 +42,9 @@ public:
         AVOID_ADSB  = 19,
         GUIDED_NOGPS= 20,
         SAFE_RTL   = 21,   //Safe Return to Launch
+	SYS_ID      = 24,
     };
-    static const int modeCount = 22;
+    static const int modeCount = 23;
 
     APMCopterMode(uint32_t mode, bool settable);
 };

@@ -271,6 +271,7 @@
 <value code="21">Smart_RTL</value>
 <value code="22">FlowHold</value>
 <value code="23">Follow</value>
+<value code="24">Sys_ID</value>
 </values>
 </param>
 <param humanName="Flight Mode 2" name="ArduCopter:FLTMODE2" documentation="Flight mode when Channel 5 pwm is &gt;1230, &lt;= 1360" user="Standard">
@@ -296,6 +297,7 @@
 <value code="21">Smart_RTL</value>
 <value code="22">FlowHold</value>
 <value code="23">Follow</value>
+<value code="24">Sys_ID</value>
 </values>
 </param>
 <param humanName="Flight Mode 3" name="ArduCopter:FLTMODE3" documentation="Flight mode when Channel 5 pwm is &gt;1360, &lt;= 1490" user="Standard">
@@ -321,6 +323,7 @@
 <value code="21">Smart_RTL</value>
 <value code="22">FlowHold</value>
 <value code="23">Follow</value>
+<value code="24">Sys_ID</value>
 </values>
 </param>
 <param humanName="Flight Mode 4" name="ArduCopter:FLTMODE4" documentation="Flight mode when Channel 5 pwm is &gt;1490, &lt;= 1620" user="Standard">
@@ -346,6 +349,7 @@
 <value code="21">Smart_RTL</value>
 <value code="22">FlowHold</value>
 <value code="23">Follow</value>
+<value code="24">Sys_ID</value>
 </values>
 </param>
 <param humanName="Flight Mode 5" name="ArduCopter:FLTMODE5" documentation="Flight mode when Channel 5 pwm is &gt;1620, &lt;= 1749" user="Standard">
@@ -371,6 +375,7 @@
 <value code="21">Smart_RTL</value>
 <value code="22">FlowHold</value>
 <value code="23">Follow</value>
+<value code="24">Sys_ID</value>
 </values>
 </param>
 <param humanName="Flight Mode 6" name="ArduCopter:FLTMODE6" documentation="Flight mode when Channel 5 pwm is &gt;=1750" user="Standard">
@@ -396,6 +401,7 @@
 <value code="21">Smart_RTL</value>
 <value code="22">FlowHold</value>
 <value code="23">Follow</value>
+<value code="24">Sys_ID</value>
 </values>
 </param>
 <param humanName="Flightmode channel" name="ArduCopter:FLTMODE_CH" documentation="RC Channel to use for flight mode control" user="Advanced">
@@ -536,6 +542,9 @@
 <value code=" 43">InvertedFlight</value>
 <value code=" 44">Winch Enable</value>
 <value code=" 45">WinchControl</value>
+<value code=" 47">SYSID Axis</value>
+<value code=" 48">SYSID Status</value>
+<value code=" 49">SYSID Axis Thr</value>
 </values>
 </param>
 <param humanName="Channel 8 option" name="ArduCopter:CH8_OPT" documentation="Select which function is performed when CH8 is above 1800 pwm" user="Standard">
@@ -581,6 +590,9 @@
 <value code=" 43">InvertedFlight</value>
 <value code=" 44">Winch Enable</value>
 <value code=" 45">WinchControl</value>
+<value code=" 47">SYSID Axis</value>
+<value code=" 48">SYSID Status</value>
+<value code=" 49">SYSID Axis Thr</value>
 </values>
 </param>
 <param humanName="Channel 9 option" name="ArduCopter:CH9_OPT" documentation="Select which function is performed when CH9 is above 1800 pwm" user="Standard">
@@ -626,6 +638,9 @@
 <value code=" 43">InvertedFlight</value>
 <value code=" 44">Winch Enable</value>
 <value code=" 45">WinchControl</value>
+<value code=" 47">SYSID Axis</value>
+<value code=" 48">SYSID Status</value>
+<value code=" 49">SYSID Axis Thr</value>
 </values>
 </param>
 <param humanName="Channel 10 option" name="ArduCopter:CH10_OPT" documentation="Select which function is performed when CH10 is above 1800 pwm" user="Standard">
@@ -671,6 +686,9 @@
 <value code=" 43">InvertedFlight</value>
 <value code=" 44">Winch Enable</value>
 <value code=" 45">WinchControl</value>
+<value code=" 47">SYSID Axis</value>
+<value code=" 48">SYSID Status</value>
+<value code=" 49">SYSID Axis Thr</value>
 </values>
 </param>
 <param humanName="Channel 11 option" name="ArduCopter:CH11_OPT" documentation="Select which function is performed when CH11 is above 1800 pwm" user="Standard">
@@ -716,6 +734,9 @@
 <value code=" 43">InvertedFlight</value>
 <value code=" 44">Winch Enable</value>
 <value code=" 45">WinchControl</value>
+<value code=" 47">SYSID Axis</value>
+<value code=" 48">SYSID Status</value>
+<value code=" 49">SYSID Axis Thr</value>
 </values>
 </param>
 <param humanName="Channel 12 option" name="ArduCopter:CH12_OPT" documentation="Select which function is performed when CH12 is above 1800 pwm" user="Standard">
@@ -761,6 +782,9 @@
 <value code=" 43">InvertedFlight</value>
 <value code=" 44">Winch Enable</value>
 <value code=" 45">WinchControl</value>
+<value code=" 47">SYSID Axis</value>
+<value code=" 48">SYSID Status</value>
+<value code=" 49">SYSID Axis Thr</value>
 </values>
 </param>
 <param humanName="Disarm delay" name="ArduCopter:DISARM_DELAY" documentation="Delay before automatic disarm in seconds. A value of zero disables auto disarm." user="Advanced">
